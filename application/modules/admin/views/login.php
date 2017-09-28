@@ -3,7 +3,7 @@
 	<div class="login-logo"><b><?php echo $site_name; ?></b></div>
 
 	<div class="login-box-body">
-		<p class="login-box-msg">asdfasdfSign in to start your session</p>
+		<p class="login-box-msg">Hola a todos Sign in to start your session</p>
 
 		<?php echo $form->open(); 		
 
