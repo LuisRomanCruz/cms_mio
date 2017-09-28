@@ -242,7 +242,7 @@ class MY_Controller extends MX_Controller {
 		}
 
 		$this->mViewData['inner_view'] = $view_file;
-		$this->load->view('_base/head', $this->mViewData);
+		$this->load->view('_base/headEli', $this->mViewData);
 		$this->load->view('_layouts/'.$layout, $this->mViewData);
 
 		// debug tools - display view data
@@ -251,7 +251,7 @@ class MY_Controller extends MX_Controller {
 			$this->output->append_output('<hr/>'.print_r($this->mViewData, TRUE));
 		}
 
-		$this->load->view('_base/foot', $this->mViewData);
+		$this->load->view('_base/footEli', $this->mViewData);
 	}
 
 	// Output JSON string

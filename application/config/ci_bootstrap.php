@@ -15,18 +15,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['ci_bootstrap'] = array(
 
 	// Site name
-	'site_name' => 'SISTEMAS',
+	'site_name' => 'ELI ART',
 
 	// Default page title prefix
 	'page_title_prefix' => '',
 
 	// Default page title
-	'page_title' => 'CORPALEN SRL',
+	'page_title' => 'Macchu Art',
 
 	// Default meta data
 	'meta_data'	=> array(
-		'author'		=> '',
-		'description'	=> '',
+		'author'		=> 'Luis Roman',
+		'description'	=> 'Página de arte Elizabeth',
 		'keywords'		=> ''
 	),
 
@@ -35,16 +35,17 @@ $config['ci_bootstrap'] = array(
 		'head'	=> array(
 		),
 		'foot'	=> array(
-			'assets/dist/frontend/lib.min.js',
-			'assets/dist/frontend/app.min.js'
+			'assets/dist/frontend/frontendEli/easyResponsiveTabs.js',
+			'assets/dist/frontend/frontendEli/jquery-1.11.1.min.js',
+			'assets/dist/frontend/frontendEli/menu_jquery.js',
 		),
 	),
 
 	// Default stylesheets to embed at page head
 	'stylesheets' => array(
 		'screen' => array(
-			'assets/dist/frontend/lib.min.css',
-			'assets/dist/frontend/app.min.css'
+			'assets/dist/frontend/frontendEli/bootstrap.css',
+			'assets/dist/frontend/frontendEli/style.css'
 		)
 	),
 
