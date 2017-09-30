@@ -4,12 +4,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Home page
  */
-class Marcas extends MY_Controller {
+class quienes_somos extends MY_Controller {
 
 	public function index()
 	{
-		$this->render('Almacen/marcas', 'full_width'); 
+		$this->render('Almacen/quienes_somos', 'defaultEli'); 
 		
 
 	}
 }
+ 

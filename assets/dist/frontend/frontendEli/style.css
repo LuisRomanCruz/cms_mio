@@ -288,7 +288,7 @@ input:focus {
 }
 #search_button {
 	border: 0 none;
-	background:#00C78A url(../images/search.png) center no-repeat;
+	background:#00C78A url(../../images/search.png) center no-repeat;
 	width: 60px; 
 	float: left;
 	padding: 0;
@@ -305,7 +305,7 @@ input:focus {
 	border-left: 0 none;
 }
 #options>a {
-	background-image: url(../images/triangle.png);
+	background-image: url(../../images/triangle.png);
 	background-position: 85% center;
 	background-repeat: no-repeat;
 	padding-right: 42px;
@@ -758,7 +758,7 @@ ul.tab_img li.last{
 	left: 2px;
 	width: 10px;
 	height: 7px;
-	background: url(../images/tick.png) no-repeat;
+	background: url(../../images/tick.png) no-repeat;
 	text-align: center;
 }
 .sky-form .radio input:checked + i:after,
@@ -1046,7 +1046,7 @@ ul.tags_images {
 }	
 .checkbox input + i:after {
 	content: '';
-	background: url("../images/tick.png") no-repeat 4px 6px;
+	background: url("../../images/tick.png") no-repeat 4px 6px;
 	top: -1px;
 	left: -1px;
 	width: 15px;
@@ -1251,7 +1251,7 @@ ul.plan-details{
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   font-size: 15px;
-  background: url(../images/tick.png)no-repeat 0 22px;
+  background: url(../../images/tick.png)no-repeat 0 22px;
   text-align: left;
 }
 .plan-options .btn {
@@ -1855,7 +1855,7 @@ fieldset#body {
 .plan-options li {
   padding: 10px 0 10px 17px;
   font-size: 14px;
-  background: url(../images/tick.png)no-repeat 0 17px;
+  background: url(../../images/tick.png)no-repeat 0 17px;
 }
 .btn_4 {
   padding: 12px 30px;

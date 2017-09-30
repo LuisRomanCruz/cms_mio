@@ -34,10 +34,10 @@ $config['ci_bootstrap'] = array(
 	'scripts' => array(
 		'head'	=> array(
 		),
-		'foot'	=> array(
-			'assets/dist/frontend/frontendEli/easyResponsiveTabs.js',
+		'foot'	=> array(			
 			'assets/dist/frontend/frontendEli/jquery-1.11.1.min.js',
 			'assets/dist/frontend/frontendEli/menu_jquery.js',
+			
 		),
 	),
 
@@ -87,23 +87,23 @@ $config['ci_bootstrap'] = array(
 		),
 		'productos' => array(
 			'name'  => 'Galeria de Productos',
-			'url'		=> 'v/productos',
+			'url'		=> 'productos',
 		),
 		'quienes_somos' => array(
 			'name'  => 'Quienes Somos',
-			'url'		=> 'v/quienes_somos',
+			'url'		=> 'quienes_somos',
 		),
 		'marcas' => array(
 			'name'  => 'Nuestras Marcas',
-			'url'		=> 'v/marcas',
+			'url'		=> 'marcas',
 		),		
 		'promociones' => array(
 			'name'  => 'Promociones',
-			'url'		=> 'v/promociones',
+			'url'		=> 'promociones',
 		),
 		'contactanos' => array(
 			'name'  => 'Contactanos',
-			'url'		=> 'v/contactanos',
+			'url'		=> 'contactanos',
 		),
 	),
 

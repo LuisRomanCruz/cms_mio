@@ -8,8 +8,7 @@ class Promociones extends MY_Controller {
 
 	public function index()
 	{
-		$this->render('Almacen/promociones', 'full_width'); 
-		
-
+		$this->render('Almacen/promociones', 'defaultEli'); 
 	}
 }
+ 

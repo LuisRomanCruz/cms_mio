@@ -27,79 +27,79 @@
 		</div>
 	</div>
 	<div class="grid_1">
-		<h3>Over 42 Million Stock Images, Vectors, Footage and Audio Clips</h3>
+		<h3>INICIO</h3>
 		<div class="col-md-2 col_1">
 			<h4>Gym</h4>
 		</div>
 	
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/g1.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g1.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/g2.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g2.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/g3.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g3.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/g4.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g4.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/g5.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g5.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
 			<h4>Food</h4>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/f1.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f1.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic9.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic9.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/f2.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f2.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/f3.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f3.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/f4.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f4.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
 			<h4>Wedding</h4>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/w1.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w1.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic15.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic15.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/w2.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w2.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/w3.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w3.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/w4.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w4.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
 			<h4>People</h4>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic20.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic20.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic21.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic21.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic22.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic22.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic23.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic23.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<img src="http://localhost/Elizabeth_cms/cms_mio/assets/dist/images/pic24.jpg" class="img-responsive" alt=""/>
+			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic24.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="clearfix"> </div>
 	</div>

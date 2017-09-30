@@ -4,12 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Home page
  */
-class quienes_somos extends MY_Controller {
+class Productos extends MY_Controller {
 
 	public function index()
-	{
-		$this->render('Almacen/quienes_somos', 'full_width'); 
-		
-
+	{		
+		$this->render('Almacen/productos', 'defaultEli');  
 	}
 }
+ 
