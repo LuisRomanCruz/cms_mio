@@ -61,6 +61,7 @@ class MY_Controller extends MX_Controller {
 	// Setup values from file: config/ci_bootstrap.php
 	private function _setup()
 	{
+			echo "<script>alert('default render ".$this->mCtrler."');</script>";
 		$config = $this->config->item('ci_bootstrap');		
 		// load default values
 		$this->mBaseUrl = empty($this->mModule) ? base_url() : base_url($this->mModule).'/';
@@ -70,8 +71,12 @@ class MY_Controller extends MX_Controller {
 		$this->mBodyClass = empty($config['body_class']) ? '' : $config['body_class'];
 		$this->mMenu = empty($config['menu']) ? array() : $config['menu'];
 		$this->mMetaData = empty($config['meta_data']) ? array() : $config['meta_data'];
+	
 		$this->mScripts = empty($config['scripts']) ? array() : $config['scripts'];
 		$this->mStylesheets = empty($config['stylesheets']) ? array() : $config['stylesheets'];
+		
+
+
 		$this->mPageAuth = empty($config['page_auth']) ? array() : $config['page_auth'];
 
 		// multilingual setup
@@ -212,8 +217,15 @@ class MY_Controller extends MX_Controller {
 		$this->mViewData['page_title'] = $this->mPageTitlePrefix.$this->mPageTitle;
 		$this->mViewData['current_uri'] = empty($this->mModule) ? uri_string(): str_replace($this->mModule.'/', '', uri_string());
 		$this->mViewData['meta_data'] = $this->mMetaData;
-		$this->mViewData['scripts'] = $this->mScripts;
-		$this->mViewData['stylesheets'] = $this->mStylesheets;
+
+	
+
+	
+			$this->mViewData['scripts'] = $this->mScripts;
+			$this->mViewData['stylesheets'] = $this->mStylesheets;
+		
+
+
 		$this->mViewData['page_auth'] = $this->mPageAuth;
 
 		$this->mViewData['base_url'] = $this->mBaseUrl;

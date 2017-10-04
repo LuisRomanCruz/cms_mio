@@ -1,3 +1,3 @@
 <div class="container">
-	<p> NUESTRAS MARCAS </p>
+		<p style="font-size:48px;" class="text-center">NUESTRAS MARCAS </p>
 </div>

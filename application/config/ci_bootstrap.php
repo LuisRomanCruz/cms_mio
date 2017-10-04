@@ -36,18 +36,18 @@ $config['ci_bootstrap'] = array(
 		),
 		'foot'	=> array(			
 			'assets/dist/frontend/frontendEli/jquery-1.11.1.min.js',
-			'assets/dist/frontend/frontendEli/menu_jquery.js',
-			
-		),
+			'assets/dist/frontend/frontendEli/menu_jquery.js',			
+		)
 	),
 
 	// Default stylesheets to embed at page head
 	'stylesheets' => array(
 		'screen' => array(
 			'assets/dist/frontend/frontendEli/bootstrap.css',
-			'assets/dist/frontend/frontendEli/style.css'
+			'assets/dist/frontend/frontendEli/style.css',
 		)
 	),
+	
 
 	// Default CSS class for <body> tag
 	'body_class' => '',

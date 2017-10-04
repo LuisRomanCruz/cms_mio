@@ -3,7 +3,7 @@
   	     <div class="logo">
   	    
 			<h1><a href=""><?php echo $site_name; ?></a></h1>
-		 </div>
+		 </div>		
 		 <div class="top_right">
 		   <ul>
 			

@@ -1,3 +1,3 @@
 <div class="container">
-	<p> CONTACTANOS</p>
+	<p style="font-size:48px;" class="text-center"> CONTACTANOS</p>
 </div>

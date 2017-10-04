@@ -1,3 +1,3 @@
 <div class="container">
-	<p> QUIENES SOMOS </p>
+		<p style="font-size:48px;" class="text-center">QUIENES SOMOS </p>
 </div>

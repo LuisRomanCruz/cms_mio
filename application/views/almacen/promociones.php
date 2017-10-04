@@ -1,3 +1,3 @@
 <div class="container">
-	<p>PROMOCIONES </p>
+		<p style="font-size:48px;" class="text-center">PROMOCIONES </p>
 </div>
