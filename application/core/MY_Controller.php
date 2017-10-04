@@ -61,7 +61,7 @@ class MY_Controller extends MX_Controller {
 	// Setup values from file: config/ci_bootstrap.php
 	private function _setup()
 	{
-			echo "<script>alert('default render ".$this->mCtrler."');</script>";
+			echo "<script>alert('estoy entrando al default al form de login');</script>";
 		$config = $this->config->item('ci_bootstrap');		
 		// load default values
 		$this->mBaseUrl = empty($this->mModule) ? base_url() : base_url($this->mModule).'/';
@@ -194,6 +194,7 @@ class MY_Controller extends MX_Controller {
 	// Render template
 	protected function render($view_file, $layout = 'default')
 	{
+		echo "<script>alert('estoy entrando al render  form de login');</script>";
     //
 		// automatically generate page title , mPageTitle = name of ci_bootstrap.php
 		// mAction por defecto es "index"

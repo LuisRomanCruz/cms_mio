@@ -10,6 +10,7 @@ class Login extends MY_Controller {
 	 */
 	public function index()
 	{
+			echo "<script>alert('entre al controller login')</script>;";
 		$this->load->library('form_builder');
 		$form = $this->form_builder->create_form();
 
