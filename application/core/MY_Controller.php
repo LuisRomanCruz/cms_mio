@@ -64,20 +64,16 @@ class MY_Controller extends MX_Controller {
 			echo "<script>alert('estoy entrando al default al form de login');</script>";
 		$config = $this->config->item('ci_bootstrap');		
 		// load default values
-		$this->mBaseUrl = empty($this->mModule) ? base_url() : base_url($this->mModule).'/';
-		$this->mSiteName = empty($config['site_name']) ? '' : $config['site_name'];
-		$this->mPageTitlePrefix = empty($config['page_title_prefix']) ? '' : $config['page_title_prefix'];
-		$this->mPageTitle = empty($config['page_title']) ? '' : $config['page_title'];
-		$this->mBodyClass = empty($config['body_class']) ? '' : $config['body_class'];
-		$this->mMenu = empty($config['menu']) ? array() : $config['menu'];
-		$this->mMetaData = empty($config['meta_data']) ? array() : $config['meta_data'];
-	
-		$this->mScripts = empty($config['scripts']) ? array() : $config['scripts'];
-		$this->mStylesheets = empty($config['stylesheets']) ? array() : $config['stylesheets'];
-		
-
-
-		$this->mPageAuth = empty($config['page_auth']) ? array() : $config['page_auth'];
+		$this->mBaseUrl         = empty($this->mModule) ? base_url() : base_url($this->mModule).'/';
+		$this->mSiteName        = empty($config['site_name'])         ? '' : 			$config['site_name'];
+		$this->mPageTitlePrefix = empty($config['page_title_prefix']) ? '' : 			$config['page_title_prefix'];
+		$this->mPageTitle       = empty($config['page_title'])        ? '' : 			$config['page_title'];
+		$this->mBodyClass       = empty($config['body_class'])        ? '' : 			$config['body_class'];
+		$this->mMenu            = empty($config['menu'])              ? array() : $config['menu'];
+		$this->mMetaData        = empty($config['meta_data'])         ? array() : $config['meta_data'];	
+		$this->mScripts         = empty($config['scripts'])           ? array() : $config['scripts'];
+		$this->mStylesheets     = empty($config['stylesheets'])       ? array() : $config['stylesheets'];
+		$this->mPageAuth        = empty($config['page_auth'])         ? array() : $config['page_auth'];
 
 		// multilingual setup
 		$lang_config = empty($config['languages']) ? array() : $config['languages'];

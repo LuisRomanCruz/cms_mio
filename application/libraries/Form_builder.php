@@ -19,6 +19,8 @@ class Form_builder {
 	
 	public function __construct()
 	{
+		echo "<script>alert('entre al form_builder')</script>";
+		echo b"foo";
 		$CI =& get_instance();
 		
 		$CI->load->helper('form');

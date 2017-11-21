@@ -187,31 +187,22 @@ class CI_Loader {
 	 * @param	string	$object_name	An optional object name to assign to
 	 * @return	object
 	 */
-	public function library($library, $params = NULL, $object_name = NULL)
-	{
-		if (empty($library))
-		{
+	public function library($library, $params = NULL, $object_name = NULL){
+	
+		if (empty($library)){	
 			return $this;
-		}
-		elseif (is_array($library))
-		{
-			foreach ($library as $key => $value)
-			{
-				if (is_int($key))
-				{
+		}elseif (is_array($library)){
+			foreach ($library as $key => $value){
+				if (is_int($key)){
 					$this->library($value, $params);
-				}
-				else
-				{
+				}else{
 					$this->library($key, $params, $value);
 				}
 			}
-
 			return $this;
 		}
 
-		if ($params !== NULL && ! is_array($params))
-		{
+		if ($params !== NULL && ! is_array($params)){
 			$params = NULL;
 		}
 

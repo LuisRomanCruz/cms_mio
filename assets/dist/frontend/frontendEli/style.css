@@ -76,6 +76,13 @@ body a{
 #loginContainer {
     position:relative;
 }
+
+#Contactos p{
+  color:#00C78A;
+  font-size:48px;
+	
+}
+
 #loginContainer a span{
   display:block;
   padding:4px 10px;
@@ -1002,6 +1009,18 @@ ul.tags_images {
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
 	border: 1px solid #EEE;
 	outline-color:#FF5B36;
+	width: 96%;
+	font-size:0.8125em;
+	padding:10px;
+}
+
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+	
+}
+
+.register-bottom-grid div #comentario {
+	border: 1px solid #EEE;
+	outline-color:#00C78A;
 	width: 96%;
 	font-size:0.8125em;
 	padding:10px;

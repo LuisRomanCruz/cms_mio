@@ -29,7 +29,7 @@
 	<div class="grid_1">
 		<h3>INICIO</h3>
 		<div class="col-md-2 col_1">
-			<h4>Gym</h4>
+			<h4>Retratos</h4>
 		</div>
 	
 		<div class="col-md-2 col_1">
@@ -48,7 +48,7 @@
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/g5.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<h4>Food</h4>
+			<h4>Cubismo</h4>
 		</div>
 		<div class="col-md-2 col_1">
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f1.jpg" class="img-responsive" alt=""/>
@@ -66,7 +66,7 @@
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/f4.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<h4>Wedding</h4>
+			<h4>Arta Abstracto</h4>
 		</div>
 		<div class="col-md-2 col_1">
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w1.jpg" class="img-responsive" alt=""/>
@@ -84,7 +84,7 @@
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/w4.jpg" class="img-responsive" alt=""/>
 		</div>
 		<div class="col-md-2 col_1">
-			<h4>People</h4>
+			<h4>Flores</h4>
 		</div>
 		<div class="col-md-2 col_1">
 			<img src="http://localhost:8080/Elizabeth_cms/cms_mio/assets/dist/images/pic20.jpg" class="img-responsive" alt=""/>
@@ -111,7 +111,7 @@
 			<div class="col-md-9 col_5">
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html">Abstract</a></li>
+					    <li><a href="stock.html">Arte Abstracto</a></li>
 			            <li><a href="stock.html">Animals/Wildlife</a></li>
 			            <li><a href="stock.html">The Arts</a></li>
 			            <li><a href="stock.html">Backgrounds/Textures</a></li>
@@ -121,7 +121,7 @@
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html">Business/Finance</a></li>
+					    <li><a href="stock.html">Cubismo</a></li>
 			            <li><a href="stock.html">Celebrities</a></li>
 			            <li><a href="stock.html">Editorial</a></li>
 			            <li><a href="stock.html">Education</a></li>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html">Holidays</a></li>
+					    <li><a href="stock.html">Retratos</a></li>
 			            <li><a href="stock.html">Illustrations/Clip-Art</a></li>
 			            <li><a href="stock.html">Industrial</a></li>
 			            <li><a href="stock.html">Interiors</a></li>
@@ -141,7 +141,7 @@
 				</div>
 				<div class="col_1_of_5 span_1_of_5">
 					<ul class="list1">
-					    <li><a href="stock.html">Nature</a></li>
+					    <li><a href="stock.html">Calles</a></li>
 			            <li><a href="stock.html">Objects</a></li>
 			            <li><a href="stock.html">Parks/Outdoor</a></li>
 			            <li><a href="stock.html">People</a></li>

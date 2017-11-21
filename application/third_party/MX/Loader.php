@@ -150,11 +150,10 @@ class MX_Loader extends CI_Loader
 	/** Load a module library **/
 	public function library($library, $params = NULL, $object_name = NULL)
 	{
-		echo var_dump($library);
+		
 		if (is_array($library)) return $this->libraries($library);
-
 		$class = strtolower(basename($library));
-
+		
 		if (isset($this->_ci_classes[$class]) && $_alias = $this->_ci_classes[$class])
 			return $this;
 
