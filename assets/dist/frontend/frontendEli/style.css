@@ -990,7 +990,8 @@ ul.tags_images {
 	padding:5em 0;
 }
 .register-top-grid h1, .register-bottom-grid h4 {
-	color: #000;
+	/*color: #000;*/
+	color:#00C78A;
     font-size: 1.1em;
     margin-bottom: 1em;
     font-weight: 500;
@@ -1001,21 +1002,29 @@ ul.tags_images {
 	margin: 10px 0;
 }
 .register-top-grid span, .register-bottom-grid span {
-	color:#555;
+	/*color:#555;*/
+	color:#E8A90C;
 	font-size: 0.8125em;
 	padding-bottom: 0.2em;
 	display: block;
 }
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
 	border: 1px solid #EEE;
-	outline-color:#FF5B36;
+	/*outline-color:#FF5B36;*/
 	width: 96%;
 	font-size:0.8125em;
 	padding:10px;
+	color:#E8A90C;
 }
 
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
-	
+.register-bottom-grid input[type="text"]:focus {
+	border: 1px solid #00C78A;
+	color:#E8A90C;
+}
+
+.register-top-grid input[type="text"]:focus {
+	border: 1px solid #00C78A;
+	color:#E8A90C;
 }
 
 .register-bottom-grid div #comentario {
@@ -1024,6 +1033,8 @@ ul.tags_images {
 	width: 96%;
 	font-size:0.8125em;
 	padding:10px;
+	color:#E8A90C;
+	/*color:#00C78A;*/
 }
 .checkbox {
 	margin-bottom: 4px;
@@ -1049,7 +1060,7 @@ ul.tags_images {
 	text-transform: uppercase;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
+	-moz-transition: 0.5s all;						
 	-o-transition: 0.5s all;
 	clear: both;
 }

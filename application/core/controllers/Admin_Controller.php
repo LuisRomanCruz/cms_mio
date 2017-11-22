@@ -12,6 +12,8 @@ class Admin_Controller extends MY_Controller {
 	protected $mCrudUnsetFields;
 
 	// Constructor
+	// 
+
 	public function __construct()
 	{
 		parent::__construct();
@@ -21,6 +23,8 @@ class Admin_Controller extends MY_Controller {
 
 		// store site config values
 		$this->mUsefulLinks = $this->mConfig['useful_links'];
+
+			echo "<script>alert('Admin_Controller')</script>";
 	}
 
 	// Render template (override parent)

@@ -196,6 +196,7 @@ class CI_Config {
 	 */
 	public function item($item, $index = '')
 	{
+		echo "<script> alert(".$item."--".$index.")</script>";
 		if ($index == '')
 		{
 			return isset($this->config[$item]) ? $this->config[$item] : NULL;

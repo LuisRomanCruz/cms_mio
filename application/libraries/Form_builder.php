@@ -20,7 +20,7 @@ class Form_builder {
 	public function __construct()
 	{
 		echo "<script>alert('entre al form_builder')</script>";
-		echo b"foo";
+		
 		$CI =& get_instance();
 		
 		$CI->load->helper('form');
@@ -82,7 +82,7 @@ class Form {
 	// Reference: http://www.codeigniter.com/user_guide/libraries/form_validation.html#calling-a-specific-rule-group
 	public function set_rule_group($rule_group)
 	{
-			echo "<script>alert('".$set_rule_group."')</script>";
+			//echo "<script>alert('".$set_rule_group."')</script>";
 		$this->mRuleGroup = $rule_group;
 	}
 

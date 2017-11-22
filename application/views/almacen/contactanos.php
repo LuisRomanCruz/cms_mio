@@ -121,7 +121,7 @@
 
 				<div class="register-but">
 				   <form>
-					   <input type="submit" value="submit">
+					   <input type="submit" value="SEND" name="">
 					   <div class="clearfix"> </div>
 				   </form>
 				</div>
