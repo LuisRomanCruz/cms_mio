@@ -62,6 +62,11 @@ class MY_Controller extends MX_Controller {
 	private function _setup()
 	{
 			echo "<script>alert('estoy entrando al default al form de login');</script>";
+			echo "<script>alert('".$this->mCtrler."');</script>";
+			echo "<script>alert('".$this->mModule."');</script>";
+			echo "<script>alert('".$this->mAction."');</script>";
+			echo "<script>alert('".$this->mMethod."');</script>";
+
 		$config = $this->config->item('ci_bootstrap');		
 		// load default values
 		$this->mBaseUrl         = empty($this->mModule) ? base_url() : base_url($this->mModule).'/';
@@ -138,6 +143,7 @@ class MY_Controller extends MX_Controller {
 	// Verify user login (regardless of user group)
 	protected function verify_login($redirect_url = NULL)
 	{
+			echo "<script>alert('asdasdasdadasdasdsa');</script>";
 		if ( !$this->ion_auth->logged_in() )
 		{
 			if ( $redirect_url==NULL )

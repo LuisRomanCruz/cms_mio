@@ -52,6 +52,8 @@ class MX_Controller
 		
 		/* autoload module items */
 		$this->load->_autoloader($this->autoload);
+
+		echo "<script>alert('estoy entrando a Mx_controller');</script>";
 	}
 	
 	public function __get($class) 

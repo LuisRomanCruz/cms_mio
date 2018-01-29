@@ -42,6 +42,7 @@ class MX_Router extends CI_Router
 
 	public function fetch_module()
 	{
+		
 		return $this->module;
 	}
 
